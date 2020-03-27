@@ -7,3 +7,7 @@ num2 = int(input("Please enter the second number:"))
 
 if num1 > num2:
     print("Number 1 is greater than Number 2")
+elif num2 > num1:
+    print("Number 2 is greater than Number 1")
+elif num1 == num2:
+    print("Number 1 is equal to Number 2")
